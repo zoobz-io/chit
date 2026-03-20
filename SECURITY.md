@@ -20,7 +20,7 @@ We take the security of chit seriously. If you have discovered a security vulner
 Instead, please report them via one of the following methods:
 
 1. **GitHub Security Advisories** (Preferred)
-   - Go to the [Security tab](https://github.com/zoobzio/chit/security) of this repository
+   - Go to the [Security tab](https://github.com/zoobz-io/chit/security) of this repository
    - Click "Report a vulnerability"
    - Fill out the form with details about the vulnerability
 
@@ -58,7 +58,7 @@ When using chit in your applications, we recommend:
 
 1. **Keep Dependencies Updated**
    ```bash
-   go get -u github.com/zoobzio/chit
+   go get -u github.com/zoobz-io/chit
    ```
 
 2. **Protect LLM Credentials**

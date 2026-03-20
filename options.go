@@ -3,7 +3,7 @@ package chit
 import (
 	"time"
 
-	"github.com/zoobzio/pipz"
+	"github.com/zoobz-io/pipz"
 )
 
 // Option is a functional option for configuring a Chat.

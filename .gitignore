@@ -5,40 +5,30 @@
 *.so
 *.dylib
 
-# Test binary and output
+# Test files
 *.test
 *.out
-
-# Coverage files
-coverage.*
-
-# Dependency directories
-vendor/
-
-# Build artifacts
-dist/
-.dist/
-
-# IDE and editor files
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
-
-# OS files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-Thumbs.db
-ehthumbs.db
-
-# Go workspace
-go.work
-go.work.sum
+coverage.out
+coverage.html
+coverage.txt
 
 # Profiling
 *.prof
 *.pprof
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+vendor/
+
+# Claude
+.claude/

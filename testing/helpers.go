@@ -5,7 +5,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/zoobzio/chit"
+	"github.com/zoobz-io/chit"
 )
 
 // MockProcessor is a test implementation of chit.Processor.

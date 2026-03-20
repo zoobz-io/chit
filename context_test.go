@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/zoobzio/chit"
-	helpers "github.com/zoobzio/chit/testing"
+	"github.com/zoobz-io/chit"
+	helpers "github.com/zoobz-io/chit/testing"
 )
 
 func TestWithEmitter(t *testing.T) {

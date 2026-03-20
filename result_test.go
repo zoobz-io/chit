@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/zoobzio/chit"
+	"github.com/zoobz-io/chit"
 )
 
 func TestResponse_IsComplete(t *testing.T) {

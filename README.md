@@ -1,13 +1,13 @@
 # chit
 
-[![CI Status](https://github.com/zoobzio/chit/workflows/CI/badge.svg)](https://github.com/zoobzio/chit/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/zoobzio/chit/graph/badge.svg?branch=main)](https://codecov.io/gh/zoobzio/chit)
-[![Go Report Card](https://goreportcard.com/badge/github.com/zoobzio/chit)](https://goreportcard.com/report/github.com/zoobzio/chit)
-[![CodeQL](https://github.com/zoobzio/chit/workflows/CodeQL/badge.svg)](https://github.com/zoobzio/chit/security/code-scanning)
-[![Go Reference](https://pkg.go.dev/badge/github.com/zoobzio/chit.svg)](https://pkg.go.dev/github.com/zoobzio/chit)
-[![License](https://img.shields.io/github/license/zoobzio/chit)](LICENSE)
-[![Go Version](https://img.shields.io/github/go-mod/go-version/zoobzio/chit)](go.mod)
-[![Release](https://img.shields.io/github/v/release/zoobzio/chit)](https://github.com/zoobzio/chit/releases)
+[![CI Status](https://github.com/zoobz-io/chit/workflows/CI/badge.svg)](https://github.com/zoobz-io/chit/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/zoobz-io/chit/graph/badge.svg?branch=main)](https://codecov.io/gh/zoobz-io/chit)
+[![Go Report Card](https://goreportcard.com/badge/github.com/zoobz-io/chit)](https://goreportcard.com/report/github.com/zoobz-io/chit)
+[![CodeQL](https://github.com/zoobz-io/chit/workflows/CodeQL/badge.svg)](https://github.com/zoobz-io/chit/security/code-scanning)
+[![Go Reference](https://pkg.go.dev/badge/github.com/zoobz-io/chit.svg)](https://pkg.go.dev/github.com/zoobz-io/chit)
+[![License](https://img.shields.io/github/license/zoobz-io/chit)](LICENSE)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/zoobz-io/chit)](go.mod)
+[![Release](https://img.shields.io/github/v/release/zoobz-io/chit)](https://github.com/zoobz-io/chit/releases)
 
 Conversation lifecycle controller for LLM-powered applications.
 
@@ -41,7 +41,7 @@ The user sees a clean conversation. Your processor can have elaborate internal d
 ## Install
 
 ```bash
-go get github.com/zoobzio/chit
+go get github.com/zoobz-io/chit
 ```
 
 Requires Go 1.24+.
@@ -55,7 +55,7 @@ import (
     "context"
     "fmt"
 
-    "github.com/zoobzio/chit"
+    "github.com/zoobz-io/chit"
 )
 
 // SimpleEmitter collects messages for demonstration
@@ -108,17 +108,17 @@ func main() {
 |---------|-------------|------|
 | Processor Interface | Pluggable reasoning with read-only history | [Concepts](docs/1.learn/3.concepts.md) |
 | Yield & Continue | Multi-turn conversations via continuations | [Concepts](docs/1.learn/3.concepts.md) |
-| Pipeline Resilience | Retry, timeout, circuit breaker via [pipz](https://github.com/zoobzio/pipz) | [Reliability](docs/2.guides/3.reliability.md) |
+| Pipeline Resilience | Retry, timeout, circuit breaker via [pipz](https://github.com/zoobz-io/pipz) | [Reliability](docs/2.guides/3.reliability.md) |
 | Emitter Abstraction | Stream responses, push resources | [Architecture](docs/1.learn/4.architecture.md) |
-| Signal Observability | Lifecycle events via [capitan](https://github.com/zoobzio/capitan) | [Architecture](docs/1.learn/4.architecture.md) |
+| Signal Observability | Lifecycle events via [capitan](https://github.com/zoobz-io/capitan) | [Architecture](docs/1.learn/4.architecture.md) |
 | Testing Utilities | Mock processors and emitters | [Testing](docs/2.guides/1.testing.md) |
 
 ## Why chit?
 
 - **Clean separation** — User conversation stays clean; internal LLM reasoning is processor's business
 - **Turn-taking built in** — Yield/Continue pattern for multi-turn without manual state management
-- **Pipeline-native** — Wrap with [pipz](https://github.com/zoobzio/pipz) for retry, timeout, rate limiting, circuit breakers
-- **Observable** — Lifecycle signals via [capitan](https://github.com/zoobzio/capitan) without instrumentation code
+- **Pipeline-native** — Wrap with [pipz](https://github.com/zoobz-io/pipz) for retry, timeout, rate limiting, circuit breakers
+- **Observable** — Lifecycle signals via [capitan](https://github.com/zoobz-io/capitan) without instrumentation code
 - **Bring your own LLM** — Processor interface works with any LLM client or framework
 
 ## Bring Your Own Reasoning
@@ -150,7 +150,7 @@ chat := chit.New(processor, emitter,
 )
 ```
 
-Your processor implementation can use [zyn](https://github.com/zoobzio/zyn) for typed synapses, raw API calls, or any other approach. Chit doesn't care — it just manages what the user sees.
+Your processor implementation can use [zyn](https://github.com/zoobz-io/zyn) for typed synapses, raw API calls, or any other approach. Chit doesn't care — it just manages what the user sees.
 
 ## Documentation
 
