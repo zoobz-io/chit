@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoobzio/chit"
-	helpers "github.com/zoobzio/chit/testing"
-	"github.com/zoobzio/pipz"
+	"github.com/zoobz-io/chit"
+	helpers "github.com/zoobz-io/chit/testing"
+	"github.com/zoobz-io/pipz"
 )
 
 func TestWithRetry_RetriesOnFailure(t *testing.T) {

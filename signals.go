@@ -1,6 +1,6 @@
 package chit
 
-import "github.com/zoobzio/capitan"
+import "github.com/zoobz-io/capitan"
 
 // Signal definitions for chit conversation lifecycle events.
 // Signals follow the pattern: chit.<entity>.<event>.

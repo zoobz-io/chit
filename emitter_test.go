@@ -3,7 +3,7 @@ package chit_test
 import (
 	"testing"
 
-	"github.com/zoobzio/chit"
+	"github.com/zoobz-io/chit"
 )
 
 func TestMessage_Fields(t *testing.T) {

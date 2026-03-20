@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/zoobzio/chit"
+	"github.com/zoobz-io/chit"
 )
 
 func TestNewMiddleware_TransformsRequest(t *testing.T) {

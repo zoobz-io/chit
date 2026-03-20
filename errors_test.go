@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/zoobzio/chit"
+	"github.com/zoobz-io/chit"
 )
 
 func TestErrUnknownResultType(t *testing.T) {

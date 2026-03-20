@@ -3,7 +3,7 @@ package chit
 import (
 	"context"
 
-	"github.com/zoobzio/pipz"
+	"github.com/zoobz-io/pipz"
 )
 
 var middlewareCallbackID = pipz.NewIdentity("chit:middleware", "User middleware callback")

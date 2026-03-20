@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoobzio/capitan"
-	"github.com/zoobzio/chit"
-	helpers "github.com/zoobzio/chit/testing"
+	"github.com/zoobz-io/capitan"
+	"github.com/zoobz-io/chit"
+	helpers "github.com/zoobz-io/chit/testing"
 )
 
 // waitFor waits for a condition to be true, with timeout.
